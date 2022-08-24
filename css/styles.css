@@ -26,7 +26,28 @@ body {
 }
 
 #hero {
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/background.avif);
   background-size: cover;
   background-position: center bottom;
+}
+
+#hero h2 {
+  padding-top: 168px;
+}
+
+#navbarMenu {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 88px;
+}
+
+#navbarMenuToggler {
+  color: rgb(225, 90, 95);
+  transition: color 0.25s;
+  z-index: 1;
+}
+
+#navbarMenuToggler.collapsed {
+  color: #fff;
 }
