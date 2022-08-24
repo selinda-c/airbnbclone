@@ -1,0 +1,9 @@
+body {
+  background-color: grey;
+}
+
+@media (min-width: 1200px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
