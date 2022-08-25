@@ -43,6 +43,36 @@
       <h2 class="pb-3 pb-sm-4 text-white">Book unique homes and experiences!</h2>
     </div>
   </div>
+  <div id="searchForm">
+    <div class="container-fluid">
+      <form class="py-4">
+        <div class="form-group">
+          <label for="where"><small><b>WHERE</b></small></label>
+          <input type="text" class="form-control form-control-lg rounded" id="where" placeholder="Anywhere">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="checkin"><small><b>CHECK IN</b></small></label>
+            <input type="date" class="form-control form-control-lg rounded-left" id="checkin" placeholder="mm/dd/yyyy">
+          </div>
+          <div class="form-group col-6">
+            <label for="checkout"><smal><b>CHECK OUT</b></smal></label>
+            <input type="date" class="form-control form-control-lg rounded-right" id="checkout" placeholder="mm/dd/yyyy">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="guests"><small><b>GUESTS</b></small></label>
+          <select class="form-control form-control-g rounded" id="guests">
+            <option>1 Guest</option>
+            <option>2 Guests</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column">
+          <button type="submit" class="btn btn-danger px-4 py-2 mt-2">Search</button>
+        </div>
+      </form>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
