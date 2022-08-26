@@ -32,6 +32,16 @@
   }
 }
 
+#hero {
+  background-image: url(/images/background.avif);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#hero h2 {
+  padding-top: 168px;
+}
+
 #xlNavbar .navbar-brand, #navbarMenuToggler, #xlNavbar .nav-link {
   line-height: 80px;
 }
@@ -47,16 +57,6 @@
 #navbarMenu .nav-link {
   padding: 12px 0;
   font-weight: 300;
-}
-
-#hero {
-  background-image: url(/images/background.avif);
-  background-size: cover;
-  background-position: center bottom;
-}
-
-#hero h2 {
-  padding-top: 168px;
 }
 
 #navbarMenu {
@@ -76,10 +76,13 @@
   color: #fff;
 }
 
-#searchForm .form-control {
-  font-size: 15px;
-  font-weight: 300;
-  border-radius: 0;
+#navbar {
+  z-index: 1;
+}
+
+#message {
+  bottom: 0;
+  right: 0;
 }
 
 #searchForm .btn-danger {
@@ -89,11 +92,8 @@
   border-color: #ff5a5f;
 }
 
-#message {
-  bottom: 0;
-  right: 0;
-}
-
-#navbar {
-  z-index: 1;
+#searchForm .form-control {
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 0;
 }
