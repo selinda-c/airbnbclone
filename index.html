@@ -9,15 +9,15 @@
   <title>Airbnb</title>
 </head>
 <body>  
-  <nav class="navbar navbar-expand-xl py-0 position-absolute w-100">
+  <nav class="navbar navbar-expand-xl py-0 position-absolute w-100" id="navbar">
     <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
       <a class="navbar-brand py-0 pr-0 pl-2 text-white" href="#">Airbnb</a>
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link py-0 px-3 text-white" href="#">Become a Host</a>
-        <a class="nav-item nav-link py-0 px-3 text-white" href="#">Earn Credit</a>
-        <a class="nav-item nav-link py-0 px-3 text-white" href="#">Help</a>
-        <a class="nav-item nav-link py-0 px-3 text-white" href="#">Sign Up</a>
-        <a class="nav-item nav-link py-0 px-3 text-white" href="#">Log In</a>
+        <a class="nav-item nav-link py-0 px-2 text-white" href="#"><div class="px-2">Become a Host</div></a>
+        <a class="nav-item nav-link py-0 px-2 text-white" href="#"><div class="px-2">Earn Credit</div></a>
+        <a class="nav-item nav-link py-0 px-2 text-white" href="#"><div class="px-2">Help</div></a>
+        <a class="nav-item nav-link py-0 px-2 text-white" href="#"><div class="px-2">Sign Up</div></a>
+        <a class="nav-item nav-link py-0 px-2 text-white" href="#"><div class="px-2">Log In</div></a>
       </div>
     </div>
     <!-- collapsed nav for sm screen -->
@@ -38,9 +38,12 @@
       <a class="nav-item nav-link" href="#">Help</a>
     </div>
   </nav>
-  <div id="hero">
+  <div id="hero" class="position-relative">
     <div class="container-fluid">
       <h2 class="pb-3 pb-sm-4 text-white-none d-xl-none">Book unique homes and experiences!</h2>
+    </div>
+    <div class="d-none d-xl-block text-right position-absolute p-4" id="message">
+      <a href="#" class="text-white"><small class="font-weight-light">Over 300<br />unique homes in Oregon</small></a>
     </div>
   </div>
   <div id="searchForm">

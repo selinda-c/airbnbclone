@@ -1,7 +1,3 @@
-body {
-  background-color: grey;
-}
-
 .container-fluid, .container {
   padding-left: 24px;
   padding-right: 24px;
@@ -29,6 +25,10 @@ body {
     padding: 32px;
     box-shadow: 0 16px 40px rgba(0,0,0,0.12);
     max-width: 441px;
+  }
+
+  #xlNavbar .nav-link div:hover {
+    border-bottom: 2px solid #fff;
   }
 }
 
@@ -87,4 +87,13 @@ body {
   padding-bottom: 12px;
   background: #ff5a5f;
   border-color: #ff5a5f;
+}
+
+#message {
+  bottom: 0;
+  right: 0;
+}
+
+#navbar {
+  z-index: 1;
 }
