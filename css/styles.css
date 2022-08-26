@@ -17,7 +17,7 @@
     width: 100%;
   }
 
-  #searchForm .container-fluid {
+  .container-fluid {
     max-width: 1080px;
   }
 
@@ -96,4 +96,15 @@
   font-size: 15px;
   font-weight: 300;
   border-radius: 0;
+}
+
+/* review content styling */
+
+@media (max-width: 767px) {
+  .headings h4 {
+    font-size: 18px;
+  }
+  .headings p {
+    font-size: 13px;
+  }
 }
