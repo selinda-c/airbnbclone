@@ -109,6 +109,27 @@
   }
 }
 
+.review .description {
+line-height: 18px;
+max-height: 60px;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+text-overflow: ellipses;
+}
+
+.review .user i {
+  font-size: 48px;
+}
+
+.review .user .name b {
+  font-weight: 500;
+}
+.review .user .location {
+  line-height: 18px;
+}
+
 .scrollableRow {
   overflow-x: scroll;
   margin-left: -24px;
@@ -120,4 +141,10 @@
 .scrollableRow > [class*=col-] {
   padding-left: 6px;
   padding-right: 6px;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
 }
