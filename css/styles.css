@@ -148,3 +148,13 @@ text-overflow: ellipses;
   background-size: cover;
   background-position: center;
 }
+
+.valueProp .icon {
+  font-size: 40px;
+  line-height: 40px;
+  color: rgb(65, 198, 188);
+}
+
+.valueProp .title {
+  font-weight: 500;
+}
